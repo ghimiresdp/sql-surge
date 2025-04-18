@@ -1,6 +1,8 @@
-# PostgreSQL Notes
+# SQL Surge
 
-This note is made for my students to prepare for their basic `SQL` and `POSTGRESQL` database management system.
+The `sql-surge` repository aims to provide a good reference to the database
+enthusiasts who would like to prepare, review, and get fantastic challenges in
+`SQL` and `RDBMS`.
 
 
 **Table of contents**
@@ -34,4 +36,3 @@ This note is made for my students to prepare for their basic `SQL` and `POSTGRES
      - 4.3 Database CRUD operations with `psql`
      - 4.4 User CRUD operations with `psql`
      - 4.5 Granting permissions to different users with `psql`
-
