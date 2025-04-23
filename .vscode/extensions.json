@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "mtxr.sqltools",
-        "mtxr.sqltools-driver-pg"
+        "mtxr.sqltools-driver-pg",
+        "aaron-bond.better-comments"
     ]
 }
