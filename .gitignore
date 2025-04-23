@@ -1,4 +1,7 @@
 # ignore ide settings
 
 .idea/
-.vscode/
+.vscode/*
+
+# allow recommended extensions
+!.vscode/extensions.json

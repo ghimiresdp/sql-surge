@@ -9,16 +9,3 @@ CREATE TABLE IF NOT EXISTS users (
     last_name VARCHAR(50) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
-
--- inserting single entry
-INSERT INTO users (first_name, last_name)
- VALUES ('John', 'Doe');
-
--- inserting multiple entry
-INSERT INTO users (first_name, last_name)
- VALUES
- ('Darth', 'Vader'),
- ('Luke', 'Skywalker'),
- ('Obi-won', 'Knobi'),
- ('Anakin', 'Skywalker');
