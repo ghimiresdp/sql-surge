@@ -5,7 +5,6 @@ CREATE TABLE IF NOT EXISTS authors (
     last_name VARCHAR(50) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
 -- create table books with FK to authors
 CREATE TABLE IF NOT EXISTS books(
     id SERIAL PRIMARY KEY,
