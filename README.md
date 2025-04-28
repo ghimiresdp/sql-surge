@@ -24,7 +24,7 @@ The reference basically contains the following resources:
 
 ## Installing `vscode` and recommended extensions
 
-Install your favourite code editor. This repository suggests you to use vscode,
+Install your favorite code editor. This repository suggests you to use vscode,
 which you can install from <https://code.visualstudio.com/>.
 
 After installing vscode, you can install extensions suggested by the project
@@ -37,14 +37,14 @@ If you prefer using a `SQL`server of your choice, then you may install it
 otherwise, a docker compose file is provided to you to install `PostgreSQL`
 server.
 To do that, first install [docker](https://www.docker.com/) if it is not
-alreaddy installed in your system. After installing docker, you can easily run
+already installed in your system. After installing docker, you can easily run
 `docker compose up` command to start your postgresql server.
 
 ```bash
 # to run all the services defined inside the `docker-compose.yml` file
 docker compose up
 
-# to run the those services in background, (daemonized mode)
+# to run the those services in background, (daemonize)
 docker compose up -d
 
 # to run specific service in background, eg: postgres
