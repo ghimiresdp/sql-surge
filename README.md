@@ -14,10 +14,10 @@ however, you could try this on any of the RDBMS that support `SQL` syntaxes.
 
 The reference basically contains the following resources:
 
-1. **Notes**: This section provides introduction to specific topics.
-2. **Examples**: This section provides some examples to get started with SQL.
-3. **Challenges**: This section provides you challenges to get prepared.
-4. **Projects**: This section will show you some real-world projects for starting projects.
+1. **[Notes](notes/)**: This section provides introduction to specific topics.
+2. **[Examples](examples/)**: This section provides some examples to get started with SQL.
+3. **[Challenges](challenges/)**: This section provides you challenges to get prepared.
+4. **[Projects](projects/)**: This section will show you some real-world projects for starting projects.
 
 
 ## Setting up project
