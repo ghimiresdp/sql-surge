@@ -1,8 +1,6 @@
-BEGIN
-;
+BEGIN;
 
-CREATE TABLE IF NOT EXISTS movies (id SERIAL PRIMARY KEY, title VARCHAR(128))
-;
+CREATE TABLE IF NOT EXISTS movies (id SERIAL PRIMARY KEY, title VARCHAR(128));
 
 CREATE TABLE IF NOT EXISTS ratings (
     id SERIAL PRIMARY KEY,
@@ -10,15 +8,13 @@ CREATE TABLE IF NOT EXISTS ratings (
     movie_id INTEGER REFERENCES movies (id),
     rating INTEGER,
     UNIQUE (user_id, movie_id) -- a user can rate a movie only once
-)
-;
+);
 
 INSERT INTO
     movies (title)
 VALUES
     ('Interstellar'),
-    ('Star Wars')
-;
+    ('Star Wars');
 
 INSERT INTO
     ratings (user_id, movie_id, rating)
@@ -33,8 +29,6 @@ VALUES
     (2, 2, 6),
     (3, 2, 9),
     (4, 2, 3),
-    (5, 2, 6)
-;
+    (5, 2, 6);
 
-COMMIT
-;
+COMMIT;
