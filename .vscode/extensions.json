@@ -2,6 +2,7 @@
     "recommendations": [
         "mtxr.sqltools",
         "mtxr.sqltools-driver-pg",
-        "aaron-bond.better-comments"
+        "aaron-bond.better-comments",
+        "renesaarsoo.sql-formatter-vsc",
     ]
 }
