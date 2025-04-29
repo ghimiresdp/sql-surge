@@ -2,8 +2,7 @@
 SELECT
     *
 FROM
-    users
-;
+    users;
 
 -- | selecting specific columns |----------------------------------------------
 SELECT
@@ -11,8 +10,7 @@ SELECT
     first_name,
     last_name
 FROM
-    users
-;
+    users;
 
 -- | Using Aliases |-----------------------------------------------------------
 /*
@@ -24,8 +22,7 @@ discuss about this topic in topic: `relations`.
 SELECT
     *
 FROM
-    jedi_courses courses
-;
+    jedi_courses courses;
 
 -- | Using Aliases on Column |-------------------------------------------------
 SELECT
@@ -33,5 +30,4 @@ SELECT
     title,
     description AS detail
 FROM
-    jedi_courses
-;
+    jedi_courses;

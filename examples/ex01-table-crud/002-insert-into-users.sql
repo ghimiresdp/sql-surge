@@ -2,8 +2,7 @@
 INSERT INTO
     users (first_name, last_name)
 VALUES
-    ('John', 'Doe')
-;
+    ('John', 'Doe');
 
 -- inserting multiple entry
 INSERT INTO
@@ -12,5 +11,4 @@ VALUES
     ('Darth', 'Vader'),
     ('Luke', 'Skywalker'),
     ('Obi-won', 'Knobi'),
-    ('Anakin', 'Skywalker')
-;
+    ('Anakin', 'Skywalker');
