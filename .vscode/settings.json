@@ -1,0 +1,21 @@
+{
+    "[sql]": {
+        "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc",
+    },
+    "SQL-Formatter-VSCode.dialect": "postgresql",
+    "SQL-Formatter-VSCode.keywordCase": "upper",
+    "SQL-Formatter-VSCode.dataTypeCase": "upper",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "sql-surge-psql",
+            "group": "sql-surge",
+            "database": "pg-db",
+            "username": "pg-user",
+            "password": "pg-pass"
+        }
+    ]
+}
