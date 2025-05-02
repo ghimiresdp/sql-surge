@@ -2,11 +2,10 @@ BEGIN;
 
 --  Create table lib_books
 CREATE TABLE IF NOT EXISTS lib_books (
-    id SERIAL PRIMARY KEY,
-    title VARCHAR(128) UNIQUE NOT NULL,
+    isbn VARCHAR(13) PRIMARY KEY,
+    title VARCHAR(128) NOT NULL,
     author VARCHAR(128) NOT NULL,
     genre VARCHAR(128) NOT NULL,
-    isbn VARCHAR(13) NOT NULL,
     total_copies INTEGER DEFAULT 0,
     available_copies INTEGER DEFAULT 0
 );
@@ -23,11 +22,12 @@ CREATE TABLE IF NOT EXISTS lib_members (
 -- create table loan
 CREATE TABLE lib_loans (
     id SERIAL PRIMARY KEY,
-    book_id INTEGER REFERENCES lib_books (id),
+    book_id VARCHAR(13) REFERENCES lib_books (isbn),
     member_id INTEGER REFERENCES lib_members (id),
     issue_date DATE DEFAULT CURRENT_DATE,
     due_date DATE NOT NULL,
-    return_date DATE NULL -- we do not know it initially
+    return_date DATE NULL, -- we do not know it initially
+    CONSTRAINT uc_book_member UNIQUE (book_id, member_id)
 );
 
 -- create table fines
