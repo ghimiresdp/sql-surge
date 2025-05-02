@@ -55,7 +55,8 @@
 
 Main Tables:
 - **Books**
-  (`book_id`, `title`, `author`, `genre`, `isbn`, `total_copies`, `available_copies`)
+  (`isbn`, `title`, `author`, `genre`, `total_copies`, `available_copies`)
+  set `isbn` as an id and a primary key of a book.
 
 - **Members**
   (`member_id`, `name`, `email`, `phone`, `join_date`, `membership_status`)
