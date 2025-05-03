@@ -27,7 +27,8 @@ CREATE TABLE lib_loans (
     issue_date DATE DEFAULT CURRENT_DATE,
     due_date DATE NOT NULL,
     return_date DATE NULL, -- we do not know it initially
-    CONSTRAINT uc_book_member UNIQUE (book_id, member_id)
+    -- we cannot lend the same book twice at the same day
+    CONSTRAINT uc_book_member_date UNIQUE (book_id, member_id, issue_date)
 );
 
 -- create table fines
