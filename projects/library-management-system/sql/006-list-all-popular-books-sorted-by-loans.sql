@@ -1,10 +1,9 @@
--- select popular books by number of loans and sort them descending
+-- select most popular 3 books by number of loans and sort them descending
 -- according to the number of books lent.
 SELECT
     b.isbn,
     b.title,
     b.author,
-    b.genre,
     count(l.id) loans
 FROM
     lib_books b
@@ -12,4 +11,6 @@ FROM
 GROUP BY
     b.isbn
 ORDER BY
-    loans DESC;
+    loans DESC
+LIMIT
+    3;

@@ -1,6 +1,7 @@
 -- select all members along with lent books
 SELECT
     m.id,
+    m.name,
     m.email,
     l.book_id,
     l.issue_date,
