@@ -1,0 +1,11 @@
+BEGIN;
+
+DROP TABLE IF EXISTS lib_fines;
+
+DROP TABLE IF EXISTS lib_loans;
+
+DROP TABLE IF EXISTS lib_books;
+
+DROP TABLE IF EXISTS lib_members;
+
+COMMIT;

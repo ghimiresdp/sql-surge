@@ -14,10 +14,10 @@ however, you could try this on any of the RDBMS that support `SQL` syntaxes.
 
 The reference basically contains the following resources:
 
-1. **Notes**: This section provides introduction to specific topics.
-2. **Examples**: This section provides some examples to get started with SQL.
-3. **Challenges**: This section provides you challenges to get prepared.
-4. **Projects**: This section will show you some real-world projects for starting projects.
+1. **[Notes](notes/)**: This section provides introduction to specific topics.
+2. **[Examples](examples/README.md)**: This section provides some examples to get started with SQL.
+3. **[Challenges](challenges/)**: This section provides you challenges to get prepared.
+4. **[Projects](projects/README.md)**: This section will show you some real-world projects for starting projects.
 
 
 ## Setting up project
@@ -57,15 +57,22 @@ Introduction and examples sometime needs some common database tables, which is
 defined inside [common/](common/) directory.
 
 Please run `SQL` scripts tagged with `up` and `seed` tags so that you would be
-able to test those scripts.
-For example [common/001-star-wars-up.sql](common/001-star-wars-up.sql)
+able to test those scripts. For example
+ [common/star-wars/001-up.sql](common/star-wars/001-up.sql).
 
-If your database becomes corrupt, or you want to start over, you can run the
-`scripts` that are tagged with **`down`** tag.
-For example [common/003-star-wars-down.sql](common/003-star-wars-down.sql).
+If your database becomes corrupt, or you want to start over, you can run `down`
+scripts. For example
+ [common/star-wars/000-down.sql](common/star-wars/000-down.sql).
 
 
 **Table of contents**
+
+> **Note**:
+> This repository is constantly evolving and might not have every topics listed
+> out below.
+>
+> Please check [`examples`](examples/) section for examples directly for
+> those sections that do not have notes yet.
 
 1. [Introduction to Database management System](course/c01-introduction/)
    - [1.1. Database Management System](#11-database-management-system)

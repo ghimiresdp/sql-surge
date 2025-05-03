@@ -5,6 +5,7 @@
     "SQL-Formatter-VSCode.dialect": "postgresql",
     "SQL-Formatter-VSCode.keywordCase": "upper",
     "SQL-Formatter-VSCode.dataTypeCase": "upper",
+    "SQL-Formatter-VSCode.expressionWidth": 80,
     "sqltools.connections": [
         {
             "previewLimit": 50,
