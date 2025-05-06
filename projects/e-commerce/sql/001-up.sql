@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS e_order_items (
 
 CREATE TABLE IF NOT EXISTS e_payments (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid (),
-    order_id UUID REFERENCES e_orders (id),
+    order_id UUID REFERENCES e_orders (id) UNIQUE,
     payment_date TIMESTAMP DEFAULT current_timestamp,
     amount NUMERIC(10, 2),
     status VARCHAR(32) DEFAULT 'pending'
