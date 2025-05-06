@@ -1,0 +1,15 @@
+BEGIN;
+
+DROP TABLE IF EXISTS e_payments;
+
+DROP TABLE IF EXISTS e_order_items;
+
+DROP TABLE IF EXISTS e_orders;
+
+DROP TABLE IF EXISTS e_customers;
+
+DROP TABLE IF EXISTS e_products;
+
+DROP TABLE IF EXISTS e_categories;
+
+COMMIT;
