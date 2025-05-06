@@ -64,8 +64,9 @@
 
 > NOTE:
 > Please use `gen_random_uuid ()` function to automatically generate random
-> UUIDs. to know more about it, check
-> <https://www.postgresql.org/docs/16/functions-uuid.html>
+> UUIDs. to know more about it, check the following resources:
+> - UUID - <https://en.wikipedia.org/wiki/Universally_unique_identifier>
+> - generating - <https://www.postgresql.org/docs/16/functions-uuid.html>
 
 ---
 
